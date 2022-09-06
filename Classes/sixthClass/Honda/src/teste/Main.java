@@ -14,6 +14,7 @@ public class Main {
                 "\ncom capacidade de combustível de " + carro.getCapacidadeCombustivel() +
                 "\ne o carro possui " + carro.getQtdJanela() + " janelas"
         );
+        System.out.println(carro.mostrarAtributos());
 
         Carro carroDois = new Carro();
         carroDois.setNome("Civic");
@@ -27,5 +28,15 @@ public class Main {
                         "\ncom capacidade de combustível de " + carroDois.getCapacidadeCombustivel() +
                         "\ne o carro possui " + carroDois.getQtdJanela() + " janelas"
         );
+        System.out.println(carroDois.mostrarAtributos());
+
+        System.out.println("------------------------------------------------");
+
+        Carro carroTres = new Carro();
+        carroTres.setNome("City");
+        carroTres.setCapacidadeCombustivel(41.2);
+        carroTres.setQtdJanela(6);
+        System.out.println(carroTres.mostrarAtributos());
+
     }
 }

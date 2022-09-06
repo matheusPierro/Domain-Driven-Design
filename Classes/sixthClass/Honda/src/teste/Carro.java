@@ -28,4 +28,11 @@ public class Carro {
     public void setQtdJanela(int qtdJanela) {
         this.qtdJanela = qtdJanela;
     }
+
+    //Métodos são ações que vamos aprofundar futuramente.
+    public String mostrarAtributos(){
+        return "O nome do carro é " + getNome() +
+                "\ncom capacidade de combustível de " + getCapacidadeCombustivel() +
+                "\ne o carro possui " + getQtdJanela() + " janelas";
+    }
 }
